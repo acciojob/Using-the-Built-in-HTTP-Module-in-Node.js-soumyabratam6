@@ -4,8 +4,6 @@ const http = require('http');
 
 // TODO: Listen on port 3000
 
-// DO NOT EDIT BELOW THIS LINE (Uncomment it once you are done with your code)
-
 const fs = require('fs');
   const server = http.createServer((req, res) => {
    fs.readFile('output.txt','utf8',(err,data)=>{
