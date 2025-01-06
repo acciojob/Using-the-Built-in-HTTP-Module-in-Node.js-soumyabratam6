@@ -1,7 +1,4 @@
 const http = require('http');
-
-// TODO: Create an HTTP server
-
 // TODO: Listen on port 3000
 
 const fs = require('fs');
